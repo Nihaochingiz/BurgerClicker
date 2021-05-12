@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sandwichClicker</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rosario:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="background">
+		<div class="rightCornerVlad">
+			<img src="assets/right.png" alt="">
+			<div class="bonus">
+			<button class="powerClick">Buy Power Click</button>
+    		<p id="pp">You have 0 Power Clicks | Cost: 50 burgers</p>
+    		<button class="clicker">Buy Clicker</button>
+    		 <p id="pc">You have 0 Buy Clickers | Cost: 15 burgers</p>
+    		<button class="Glent">Call Glent</button>
+    		<p id ="pg">You have 0 Glents  | Cost: 100 burgers</p>
+			</div>
+			<div class="burger">
+				<img src="assets/sandwich.png" alt="">
+
+
+				<div class="iconBurger">
+					<img src="assets/littleSandvich.svg" alt="" onClick="onClick()" onClick id="burgerPlay">
+					
+				</div>
+
+				<div class="textScore">
+					<p>Burgers: <a id="clicks">0</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+</body>
+<script src="script.js"></script>
+</html>

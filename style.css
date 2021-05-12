@@ -1,0 +1,93 @@
+.background {
+	position: relative;
+	width: 2000px;
+	height: 800px;
+	background: #B2BE3F;
+	top: 20px;
+	
+
+}
+
+.rightCornerVlad  {
+	position: relative;
+	top: 620px;
+	left: 770px;
+	width: 20%; 
+	height: 150px;
+	
+}
+
+
+.textScore {
+	position: relative;
+	font-family: 'Rosario', sans-serif;
+	width: 204px;
+	height: 47px;
+	left: 87px;
+	bottom: 400px;
+	background: rgba(220, 133, 58, 0.84);
+	border-radius: 7px;
+}
+
+
+.textScore p {
+	position: relative;
+	left: 60px;
+}
+
+
+.bonus {
+	position: relative;
+	left: 400px;
+	bottom:  600px;
+}
+
+
+.burger {
+	position: relative;
+	bottom: 700px;
+	right: 460px;
+	width: 20%; 
+	height: 150px;
+	transition: 0.5s; 
+
+}
+
+
+.burger:hover {
+	 transform: scale(1.2);
+   }
+
+
+#burgerPlay {
+
+    margin: 0 auto;
+    transition: 0.1s;
+    cursor: pointer;
+    position: relative;
+    left: 240px;
+    bottom: 150px;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+ #burgerPlay:active {
+      transform: scale(.95);
+ 	  transform: scaleX(2) translateX(-10px);
+ 	  
+
+
+
+    }
+
+
+
+    div.burger div.iconBurger {
+    display: none;
+}
+div.burger:hover div.iconBurger {
+    display: block;
+}
+
